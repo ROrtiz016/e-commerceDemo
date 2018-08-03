@@ -1,0 +1,14 @@
+.CartFlex{
+  display: flex;
+
+}
+
+.checkout{
+  height: 30px;
+  position: relative;
+  top: 40px
+}
+
+.wrap{
+  flex-wrap: wrap
+}

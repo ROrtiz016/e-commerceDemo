@@ -1,0 +1,35 @@
+.nav{
+  height: 100vh;
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+.storeName{
+  font-family:'Encode', sans-serif;
+}
+
+.HomeNav{
+  font-family:'Encode', sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  margin-top: 80px;
+  text-decoration-line: none;
+}
+
+.ProductsNav{
+  font-family:'Encode', sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  margin-top: 40px
+}
+
+.CartNav{
+  font-family:'Encode', sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  margin-top: 40px
+}
