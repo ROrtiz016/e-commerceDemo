@@ -20,7 +20,7 @@ module.exports = {
       .catch(err => console.log(err))
   },
 
-
+////////////////////////
   ///////////Add to Cart//////////
   addToCart: (req, res, next) => {
     const db = req.app.get('db')
