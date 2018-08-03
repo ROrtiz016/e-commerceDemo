@@ -24,7 +24,7 @@ export default class Products extends Component {
       return (
         <div key={el.id}>
           <div>
-            <Link to={`/Selected/${el.id}`}><img src={el.image} alt="product" /></Link>
+            <Link to={`/Selected/${el.id}`}><img src={el.image} alt="product"  className='ProdImage'/></Link>
           </div>
           <div>
             <h3>{el.name}</h3>

@@ -7,3 +7,14 @@
 .ProductsComp{
   display: flex;
 }
+
+.ProdImage{
+  height: 400px;
+  width: 300;
+
+}
+
+.Container{
+  height: 800px;
+  width: 800px
+}

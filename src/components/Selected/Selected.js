@@ -33,8 +33,8 @@ class Selected extends Component {
     return (
       <div className='Select'>
         <NavBar />
-        <div>
-          <img src={this.state.product.image} alt="ProdImg" />
+        <div className='Container'>
+          <img src={this.state.product.image} alt="ProdImg" className='ProdImage'/>
           <h3>{this.state.product.name}</h3>
           <p>Price ${this.state.product.price}.99</p>
           <p>{this.state.product.description}</p>
