@@ -21,7 +21,7 @@ class Cart extends Component {
   }
 
   updateQuantity(value, id) {
-    axios.post(`/api/addcart/${id}`, {
+    axios.put(`/api/addcart/${id}`, {
       quantity: value
     }).then(response => this.props.addToCart(response.data))
       .catch(err => console.log(err))

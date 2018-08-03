@@ -20,6 +20,7 @@ massive(CONNECTION_STRING).then(db => {
 
 app.get('/api/products', controllers.getProducts)
 app.post('/api/addcart/:id', controllers.addToCart)
+app.put('/api/addcart/:id', controllers.addToCart)
 app.get('/api/selectproduct/:id', controllers.getSelectedProduct)
 app.get('/api/cart', controllers.getCart)
 app.delete('/api/cart/:id', controllers.delete)
